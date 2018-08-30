@@ -13,8 +13,8 @@ public class TodoService {
 	
 	//Data
 	private List<Todo> todos = new ArrayList<> (Arrays.asList(
-			new Todo("Eat", "Watch"),
-			new Todo("Run", "Jump")
+			new Todo("1", "Work1","Pending"),
+			new Todo("2", "Work2","Done")
 			));
 	
 	//GetAllList
